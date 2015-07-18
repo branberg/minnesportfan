@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^minnesportfan\.com$ [NC]
+RewriteRule ^(.*)$ http://minnesportfan.com/$1 [R=301,L]

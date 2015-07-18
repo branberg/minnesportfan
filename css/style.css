@@ -1,0 +1,62 @@
+body{
+	background: #000;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+#wrapper{
+	width: 750px;
+	margin: 0 auto;
+}
+
+#title,
+#description{
+	display: none;
+}
+
+#minnefesto{
+	background: url('../img/minnefesto.png') top center no-repeat;
+	display: block;
+	width: 750px;
+	height: 1200px;
+}
+#minnefesto img{
+	display: block;
+	width: 750px;
+}
+
+#social-likes{
+	margin: 20px auto 0px auto;
+	width: 362px;
+}
+#social-likes .fb-like{
+	float: left;
+	margin: 0 30px 0 0;
+}
+#social-likes .twitter-share-button{
+	float: left;
+}
+#social-likes .twitter-follow-button{
+	float: left;
+}
+
+#credits{
+	text-transform: uppercase;
+	text-align: center;
+	margin: 50px 0;
+}
+#credits h4{
+	font-weight: 300;
+	margin: 0;
+}
